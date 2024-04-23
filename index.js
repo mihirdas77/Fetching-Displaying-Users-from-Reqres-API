@@ -6,7 +6,7 @@ function fetchUserData() {
     .then(data => {
       displayUserData(data.data);
     })
-    .catch(error => console.error('Error fetching user data:', error));
+    // .catch(error => console.error('Error fetching user data:', error));
 }
 
 function displayUserData(users) {
